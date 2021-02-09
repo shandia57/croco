@@ -1,0 +1,14 @@
+- Pouvoir reconnaitre si le client est déjà dans la BDD (mais ne peu pas changer son adresse de livraison)
+- Faire une fonction JS onkeyup pour afficher le client correspondant au fur et a mesure 
+- Pouvoir sélectionner le client  
+- une fois que le client est sélectionné : procéder à la commande 
+- Une fois la commande fini l'ajoute à la BDD
+- La pizza est donc en préparation -> ajouter la commande dans l'onglet commande 
+- L'onglet commande en cours comporte : 
+	- Les coordonnées du clients
+	- Sa commande 
+	- un timer qui indique combien de temps la commande est en cours 
+	- Affiche le temps estimé pour la livraison depuis le croco jusqu'au client
+- Un bouton terminer commande doit être afficher et procède à la fin de la commande 
+- Une fois la commande est terminé l'affiche dans l'onglet Précédente commande 
+
