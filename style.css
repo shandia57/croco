@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    background-color: #999999;
+}
+h1{
+    text-align: center;
+}
+input:focus{
+    outline-color: darkred;
+}
+/* -----  Style Article  ---------- */
+article{
+    background-color: #e6e6e6;
+    margin-left: 2%;
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    
+}
+
+/* ---------- FORMULAIRE -------- */
+#formulaire{
+    margin-top: 2%;
+    width: 30% auto;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid darkgreen;
+  
+}
+#info_client{
+    border-bottom: 1px solid black;
+    
+}
+#info_client table{
+    margin-bottom: 10px;
+    margin-left: 10px;   
+
+}
+#info_client table input{
+    margin-right: 15px;
+}
+
+
+#formulaire_commande table{
+    margin: 10px ;
+    
+    
+}
+.table_commande_left{
+    padding-right: 20px;
+}
+#space{
+    height: 150px;
+    width: 200px;
+    max-width: 200px;
+    background-color: white;
+
+   
+
+}
+#space2{
+    height: 300px;
+    width: 300px;
+    max-width: 300px;
+    background-color: white;
+}
+#btn_espece{
+    background-color: rgb(61, 107, 167);
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    position: inherit;
+    
+   
+}
+#btn_espece:hover{
+    
+    width: 80px;
+   
+}
+
+#btn_cb{
+    background-color: rgb(61, 107, 167);
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer; 
+   
+}
+#btn_cb:hover{
+  
+    width: 80px;
+}
+#btn_ajouter{
+    display: inline-block;
+    background-color: #036d12;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    /*font-size: 28px;*/
+    /*padding: 20px;*/
+    /*width: 100px;*/
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+#btn_ajouter span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+#btn_ajouter span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+#btn_ajouter:hover{
+    background-color: #63b353;
+}
+#btn_ajouter span:hover{
+    padding-right: 25px;
+}
+#btn_ajouter:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+/* ------------------------------------------------------------------------ */ 
+
+#btn_supprimer{
+    display: inline-block;
+    background-color:darkred;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    /*font-size: 28px;*/
+    /*padding: 20px;*/
+    /*width: 100px;*/
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+#btn_supprimer span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+#btn_supprimer span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+#btn_supprimer:hover{
+    background-color: #b35353;
+}
+#btn_supprimer span:hover{
+    padding-right: 25px;
+}
+#btn_supprimer:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+/* ------------------------------------------------------------------------ */ 
+#btn_effacer{
+    display: inline-block;
+    background-color:rgb(190, 107, 5);
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    /*font-size: 28px;*/
+    /*padding: 20px;*/
+    /*width: 100px;*/
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+#btn_effacer span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+#btn_effacer span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+#btn_effacer:hover{
+    background-color: #cc8f5e;
+}
+#btn_effacer span:hover{
+    padding-right: 25px;
+}
+#btn_effacer:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+
+/* ------------------------------------------------------------------------ */ 
+
+
+/* ---------- AFFICHAGE -------- */
+#affichage{
+    margin-top: 2%;
+    width: 50%;
+    height: 500px;
+    vertical-align: top;
+}
+/* ---------- COMMANDE -------- */
+#commande{
+    width: 80%;
+    height: 250px;
+}
